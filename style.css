@@ -1,0 +1,94 @@
+#home{
+    background-image: url('backgroundimage2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    text-justify: inherit;
+
+
+}
+#services{
+        background-image: url('C:\Users\jmwasi\Delani Studio WK3\images\s_image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        text-justify: inherit;
+        color: white;
+        font-size: small;
+
+
+}
+#what{
+
+  text-align: center;
+    text-justify: inherit;
+}
+
+
+#about{
+    text-align: center;
+    text-justify: inherit;
+}
+h3{
+    text-align: center;
+    text-justify: inherit;
+}
+#p1{
+    text-align: center;
+    text-justify: inherit;
+    
+}
+
+#button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+}
+.contactus{
+
+   background-image: url('c_image.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   text-justify: inherit;
+  
+
+}
+
+.socials{
+    text-align: center;
+   margin-left: 20%;
+
+}
+
+body{
+margin-left: 10px;
+margin-top: 0px;
+
+}
+
+.design,.development,.product{
+ display: none;
+
+
+}
+
+.hover{
+    opacity:0;
+    background-color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%;
+   
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status

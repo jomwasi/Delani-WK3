@@ -3,7 +3,7 @@ body{
 }
 
 #logo{
-    background-image: url("h_img.jpg");
+    background-image: url(images\g_plus.png);
     background-size: cover;
     text-align: center;
     color: white;
@@ -16,7 +16,7 @@ body{
 }
 
 #services-banner{
-    background-image: url(s_image.jpg);
+    background-image: url(images\s_image.jpg);
     background-size: cover;
     text-align: center;
     color: white;
@@ -26,7 +26,7 @@ body{
 }
 
 .contactus{
-    background-image: url(c_image.jpg);
+    background-image: url(images\c_image.jpg);
     background-size:cover;
     display: cover;
     padding: 10%;

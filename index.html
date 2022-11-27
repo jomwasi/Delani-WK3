@@ -1,215 +1,228 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani studio</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="C:\Users\jmwasi\Delani Studio WK3\style.css">
+    <!-- CSS ONLY -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <div class="container">
-        <section class="caption">
-            <img src="images\logo.png" alt="Delani studio logo">
-            <h1>WELCOME</h1>
-            <h1>TO DELANI STUDIO</h1>
-            <h3>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h3>
-            <div class="mouse-click">
-                <img src="images\mouse_click.png">
-            </div>
-        </section>
-
-        <section class="about">
-            <h2>ABOUT US</h2>
-            <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software
-                development process are intergrated, interactive and agile</p>
-            <p>Our approach unifies design, development and product management to create exceptional products.</p>
-            <p>We start each project by understanding your business goals, the user's needs and the product requirements
-            </p>
-            <p>Then we help translate them into effective and elegant solutions</p>
-        </section>
-
-        <section class="services">
-            <h2>SERVICES</h2>
-            <p>Before we sign a contract or we write a line of code our team will spend the necessary time needed to
-                understand your product vision</p>
-            <p>The outcome of this scoping session is a proposal or high-level statement of work</p>
-            <p>based on your requirements we can provide a complete offering or just the pieces you need</p>
-        </section>
-
-        <section class="work">
-            <h2>WHAT WE DO</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <img id="design-icon" src="C:\Users\jmwasi\Delani Studio WK3\images\design_icon.png" alt="">
-                    <h3>DESIGN</h3>
-                    <p id="design-text">Our design practice offers a full range of services including brand strategy,
-                        interaction and visual design and user experience testing. Throughout your project, our
-                        designers create and implement visual design and workflows, solicit user feedback and work with
-                        you to make sure what gets built is what is needed.</p>
-                </div>
-
-                <div class="col-sm-4">
-                    <img id="dev-icon" class="work-icon" src="images\dev_icon.png" alt="">
-                    <h3>DEVELOPMENT</h3>
-                    <p id="dev-text">All engineers are fluent in the latest enterprise, mobile and web development
-                        technologies. They collaborate with your team to write, and improve code on a daily basis, using
-                        proven practices such as test-driven development and pair programming.</p>
-                </div>
-
-                <div class="col-sm-4">
-                    <img id="product-icon" class="work-icon" src="images\product_icon.png" alt="">
-                    <h3>PRODUCT MANAGEMENT</h3>
-                    <p id="product-text">Planning and development is iterative. Because we are constantly coding and
-                        testing, the products we build are always ready to go live. This iterative process allows for
-                        changes as business requirements evolve.</p>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="portfolio">
-        
-            <h2 style="text-align: center ;">PORTFOLIO</h2> <br>
-            <div class="row">
-
-                <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
-                    <div class="portfolio-item">
-                        <img src="images\work4.jpg" id= "work4">
-                        <div class="subtitle">
-                            <h2>EARTH DAY</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
-                    <div class="portfolio-item">
-                        <img src="images\work3.jpg" alt="">
-                        <div class="subtitle">
-                            <h2>ONTARIO SECURITY</h2>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
-                        <div class="portfolio-item">
-                            <img src="images\work2.jpg.jpg" alt="">
-                            <div class="subtitle">
-                                <h2>EDGE INC.</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
-                        <div class="portfolio-item">
-                            <img src="images\work2.jpg" alt="">
-                            <div class="subtitle">
-                                <h2>UI/UX</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
-                        <div class="portfolio-item">
-                            <img src="images\work5.jpg" alt="">
-                            <div class="subtitle">
-                                <h2>GOETHE INSTITUTE</h2>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
-                        <div class="portfolio-item">
-                            <img src="images\work6.jpg" alt="">
-                            <div class="subtitle">
-                                <h2>WIT DASHBOARD</h2>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
-                        <div class="portfolio-item">
-                            <img src="images\work7.jpg" alt="">
-                            <div class="subtitle">
-                                <h2>BURNED LOGO</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
-                    <div class="portfolio-item">
-                        <img src="images\work8.jpg" alt="">
-                        <div class="subtitle">
-                            <h2>GIRRAFE RESTAURANT</h2>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <section class="contact">
-            <h2>CONTACT US</h2>
-            <form id="form"
-                action="https://gmail.us10.list-manage.com/subscribe/post?u=1e67cf55a4b296cb7fd7ffda1&amp;id=2eac054d6d"
-                method="post" onsubmit="return validation()" action="index.html" method="post">
-                <div>
-                    <input id="name" class="input-field" type="text" name="name" placeholder="Name" value="">
-                </div>
-                <div>
-                    <input id="email" class="input-field" type="email" name="email" placeholder="Email" value="">
-                </div>
-                <div>
-                    <textarea id="message" placeholder="Your message here" name="name" rows="8" cols="60"></textarea>
-                </div>
-                <button id="validate" type="submit" name="button">SUBMIT</button>
-            </form>
-        </section>
-
-        <footer>
-            <div class="social-icons">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\twitter.png" alt="twitter">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\dribble.png" alt="dribble">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\facebook.png" alt="facebook">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\g_plus.png" alt="google plus">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\twitter.png" alt="skype">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\stumble_upon.png" alt="stumble upon">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\behance.png" alt="behance">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\pinterest.png" alt="pinterest">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\flickr.png" alt="flickr">
-                <img src="C:\Users\jmwasi\DELANI STUDIO\IP3\assets\social_icons\you_tube.png" alt="You Tube">
-            </div>
-
-            <div class="copyright">
-                <p><strong>&copyDELANI STUDI0<br>2022</strong></p>
-            </div>
-        </footer>
+    <div id="logo">
+        <br><br><br><br><br><br>
+        <img src="images\logo.png" class="logo" >
+        <h1 id="h1">WELCOME <br>TO DELANI STUDIO</h1>
+        <p id="amazing-p">Amazing people are making amazing designs in a fun enviroment</p>
+        <br><br><br><br><br><br>
+        <img src="images\mouse_click.png">
+        <br><br><br>
     </div>
-    <scriptsrc="https: //ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
-        </script>
-        <script src="C:\Users\jmwasi\Delani Studio WK3\script.js"> </script>
+    
+    <div id="about-us">
+    <h3 id="h-aboutus">ABOUT US</h3>
+            <p id="aboutus">
+                When you work with us, you are part of a team of commutted collaborator. All aspects of our software development process are intergrated, interactive and agile.<br>
+                Our approach unifies design, delevelopment and product management to create exceptional products.<br>
+                We start each project by understangin your business goals, the user.s neds and the product requirements.<br>
+                Then we help translate them into effective and elegant solutions.
+            </p>
+    </div>
+            <br> 
+            
+    <div class="row">
+        <div class="col-md-12">
+            <div id="services-banner">
+                    <br><br><br><br><br><br><br>
+                    <h3>SERVICES</h3>
+                    <p id="services">
+                        Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.<br>
+                        The outcome of this scoping seesion is proposal or high-level statement of work.<br>
+                        Based on your requirements, we can provide a complete offering or just pieces you need.
+                    </p>
+                    <br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
 
+
+    <section class="work">
+        <h2>WHAT WE DO</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img id="design-icon" src="C:\Users\jmwasi\Delani Studio WK3\images\design_icon.png" alt="">
+                <h3>DESIGN</h3>
+                <p id="design-text">Our design practice offers a full range of services including brand strategy,
+                    interaction and visual design and user experience testing. Throughout your project, our
+                    designers create and implement visual design and workflows, solicit user feedback and work with
+                    you to make sure what gets built is what is needed.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <img id="dev-icon" class="work-icon" src="images\dev_icon.png" alt="">
+                <h3>DEVELOPMENT</h3>
+                <p id="dev-text">All engineers are fluent in the latest enterprise, mobile and web development
+                    technologies. They collaborate with your team to write, and improve code on a daily basis, using
+                    proven practices such as test-driven development and pair programming.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <img id="product-icon" class="work-icon" src="images\product_icon.png" alt="">
+                <h3>PRODUCT MANAGEMENT</h3>
+                <p id="product-text">Planning and development is iterative. Because we are constantly coding and
+                    testing, the products we build are always ready to go live. This iterative process allows for
+                    changes as business requirements evolve.</p>
+            </div>
+        </div>
+
+    </section>
+        </div>
+    </div>
+</div>
+
+    <div class="Portfolio">
+        <h4 style="text-align: center ;">PORTFOLIO</h4> <br>
+        <div class="row">
+
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work4.jpg" id="work4">
+                <div class="Hover">
+                    <p id="hover_portfolio">KENYA BREWERIES</p>
+                </div>
+            </div>  
+
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work3.jpg" id="work3">
+                <div class="Hover1">
+                    <p id="hover_portfolio">ONTARIO SECURITY</p>
+                </div>
+            </div> 
+
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work2.jpg" id="work2">
+                <div class="Hover2">
+                    <p id="hover_portfolio">THE DESERT STORM</p>
+                </div>
+            </div> 
+
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work1.jpg" id="work1">
+                <div class="Hover3">
+                    <p id="hover_portfolio">YOUR AWESOME WEATHER APP</p>
+                </div>
+            </div> 
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work5.jpg" id="work5">
+                <div class="Hover4">
+                    <p id="hover_portfolio">YOUR VACATION BOOKINGS <BR>MADE EASY!</p>
+                </div>
+            </div>  
+
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work6.jpg" id="work6">
+                <div class="Hover5">
+                    <p id="hover_portfolio">AGE CALCULATOR</p>
+                </div>
+            </div> 
+
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work7.jpg" id="work7">
+                <div class="Hover6">
+                    <p id="hover_portfolio">BURNED MOCK-UP</p>
+                </div>
+            </div> 
+
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work8.jpg" id="work8">
+                <div class="Hover7">
+                    <p id="hover_portfolio">GIRRAFE RESTAURANT</p>
+                </div>
+            </div> 
+
+        </div>
+    </div>          
+    <br>
+
+   <div class="contactus">
+        <h4 style="text-align: center; color:white">CONTACT US</h4>
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <div id="form-group">
+                            <label for="name"></label>
+                            <input type="text" class = "required form-control" id="name" placeholder="Name. . .">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="email"></label>
+                            <input type="text" value="" name="Email" class="required email form-control" id="email" placeholder="Email. . .">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="message"></label>
+                            <textarea type="text" name="MESSAGE" class="required form-control" id="textarea" cols="30" rows="10" placeholder="Your message here..."></textarea>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div id="submit"><input type="submit" value="Submit"></div>
+            </form>
+
+    </div>
+    <br>
+    <div id="socialtools">
+        <div class="row">
+            <div class="col-md-1">
+                <!-- twitter -->
+                <img src="twitter.png" alt="Dribble">
+            </div>
+            <div class="col-md-1">
+                <!-- twitter -->
+                <img src="dribble.png" alt="facebook">
+            </div>
+            <div class="col-md-1">
+                <!-- twitter -->
+                <img src="facebook.png" alt="facebook">
+            </div>
+            <div class="col-md-1">
+            <!-- twitter -->
+            <img src="g_plus.png" alt="google plus">
+            </div>
+            <div class="col-md-1">
+                <!-- twitter -->
+                <img src="skype.png" alt="skype">
+            </div>
+            <div class="col-md-1">
+                <!-- twitter -->
+                <img src="stumble_upon.png" alt="stumble_upon">
+            </div>
+            <div class="col-md-1">
+                <!-- twitter -->
+                <img src="behance.png" alt="behance">
+            </div>
+            <div class="col-md-1">
+                <!-- twitter -->
+                <img src="pinterest.png" alt="pinterest">
+            </div>
+            <div class="col-md-1">
+                <!-- twitter -->
+                <img src="flickr.png" alt="flickr">
+            </div>
+        </div>
+    </div>
+    <br>
+    <p>DELANI STUDIO <br> 2019</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+        
 </body>
-
 </html>
-<Footer>
-    © 2022 GitHub, Inc.
-    Footer navigation
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-</footer>

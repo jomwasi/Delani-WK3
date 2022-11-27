@@ -4,7 +4,7 @@ html {
 
 #home{
 
-  background-image: url("images\h_image.jpg");
+  background-image: url(images\h_img.jpg);
 
   background-repeat: no-repeat;
 
@@ -17,7 +17,7 @@ html {
 
 #services{
 
-  background-image: url("images\s_image.jpg");
+  background-image: url("images\s_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

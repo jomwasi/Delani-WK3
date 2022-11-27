@@ -7,7 +7,7 @@ $("document").ready(function(){
       }
   })
   
-  $(".kazi").click(function (e) {
+  $(".job").click(function (e) {
 
       const clicked = e.target;
 

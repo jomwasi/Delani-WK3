@@ -1,111 +1,86 @@
-body{
-    background-color: white;
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+#home{
+
+  background-image: url("images/backgrounds/h_image.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-position: center;
+  font-family: 'Gabriela', serif;
+
 }
 
-#logo{
-   background-image: url(images\g_plus.png);
-   background-size: cover;
-   text-align: center;
-   color: rgb(243, 240, 237);
-         
+#services{
+
+  background-image: url("images/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Gabriela', serif;
 }
 
-#about-us{
-    margin-top: 10px;
-    text-align: center;
+#contact-us{
+
+  background-image: url("images/backgrounds/c_image.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-position: center;
+  font-family: 'Copse', serif;
+
 }
 
-#services-banner{
-    background-image: url(images\s_image.jpg);
-    background-size: cover;
-    text-align: center;
-    color: white;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+.socials{
+
+  font-size: xx-small;
+
 }
 
-.contactus{
-    background-image: url(images\c_image.jpg);
-    background-size:cover;
-    display: cover;
-    padding: 10%;
+#submitButton{
+
+  text-decoration: none;
 }
 
+#sign-out{
 
-#socialtools{
-    margin-left: 20%;
+  font-size: small;
+
+  font-weight: bold;
+}
+#copyright{
+  font-size: xx-small;
 }
 
-p{
-    text-align: center;
+.paragraph{
+  font-family:'Gabriela', serif;
 }
 
-
-h5{
-    text-align: center;
+h4{
+  font-family:'Gabriela', serif;
 }
-
-#image{
-    display: flex;
-    justify-content:center ;
+h2{
+  font-family:'Gabriela', serif;
 }
+#WHAT WE DO{
+  text-align: center;
+  background-position: center center;
+  font-family: 'quattrocento', serif;
+  padding: 40px;
+} 
 
-.Hover,.Hover1, .Hover2, .Hover3, .Hover4, .Hover5, .Hover6, .Hover7{
-    height: 310px;
-    width: 366px;
-    position: absolute;
-    background-color: white;
-    opacity: 0;
-    margin-top: -8cm;
-   
+.description{
+  display: none;
 }
-
-#custom-info-on-portfolio-images{
-    height: 280px;
-    max-width: 280px;
-    padding:1em;
-  }
-
-.row{
-   
-    margin: auto;
-    padding: 2%;
-  
+.workImages{
+  display: block;
+} 
+.workImages:hover, .description:hover {
+  cursor: pointer;
 }
-
-#submit{
-    padding-left: 5%;
-    margin: 5%;
-}
-
-.hide{
-    display: none;
-}
-
-input[type=text]{
-
-    background: transparent;
-    color: white;
-}
-
-textarea[type=text]{
-    background:transparent;
-    color: white;
-    
-}
-
-/* * {
-    margin: auto;
-} */
-
-textarea [type='placeholder']{
-    color: white;
-    
-}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-S

@@ -3,10 +3,10 @@ body{
 }
 
 #logo{
-    background-image: url(images\g_plus.png);
-    background-size: cover;
-    text-align: center;
-    color: white;
+   background-image: url(images\g_plus.png);
+   background-size: cover;
+   text-align: center;
+   color: rgb(243, 240, 237);
          
 }
 

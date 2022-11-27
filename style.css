@@ -1,7 +1,7 @@
-
-html{
-  scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
+
 #home{
 
   background-image: url("images\h_image.jpg");

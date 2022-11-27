@@ -1,47 +1,119 @@
-$(document).ready(function(){
-    $("#design-icon").click(function(){
-      $("#design-text").toggle();
-      $("#dev-text").hide();
-      $("#product-text").hide();
-    });
+$(document).ready(()=>{
+
+  // what we do section
+  
+  $('#design').click(() =>{
+      $('#design-showing').toggle();
+      $('.hide-design-image').toggle();
+  });
+   
+  $('#development').click(() =>{
+      $('#development-showing').toggle();
+      $('.hide-development-image').toggle();
+  });
+         
+  $('#product-management').click(() =>{
+      $('#product-showing').toggle();
+      $('.hide-product-image').toggle();
+  });
+
+  
+   //hover for each portfolio item.          
+
+  $(".Hover").hover(()=> {
+      $('.Hover').css('opacity', '1' );
+
+  }, () =>{
+
+      $('.Hover').css('opacity', '0');
+
+  });
+
+  $(".Hover1").hover(()=> {
+      $('.Hover1').css('opacity', '1' );
+
+  }, () =>{
+
+      $('.Hover1').css('opacity', '0');
+
+  });
+
+  $(".Hover2").hover(()=> {
+      $('.Hover2').css('opacity', '1' );
+
+  }, () =>{
+
+      $('.Hover2').css('opacity', '0');
+
+  });
+
+  $(".Hover3").hover(()=> {
+      $('.Hover3').css('opacity', '1' );
+
+  }, () =>{
+
+      $('.Hover3').css('opacity', '0');
+
+  });
+
+  $(".Hover4").hover(()=> {
+      
+      $('.Hover4').css('opacity', '1' );
+
+  }, () =>{
+
+      $('.Hover4').css('opacity', '0');
+
   });
   
-  $(document).ready(function(){
-    $("#dev-icon").click(function(){
-      $("#dev-text").toggle();
-      $("#design-text").hide();
-      $("#product-text").hide();
-    });
+  $(".Hover5").hover(()=> {
+      $('.Hover5').css('opacity', '1' );
+
+  }, () =>{
+
+      $('.Hover5').css('opacity', '0');
+
   });
-  
-  $(document).ready(function(){
-    $("#product-icon").click(function(){
-      $("#product-text").toggle();
-      $("#design-text").hide();
-      $("#dev-text").hide();
-    });
+
+  $(".Hover6").hover(()=> {
+      $('.Hover6').css('opacity', '1' );
+
+  }, () =>{
+
+      $('.Hover6').css('opacity', '0');
+
   });
-  
-  function validation(){
-    let name = document.getElementById('name').value;
-    let email = document.getElementById('email').value;
-    let message = document.getElementById('message').value;
-  
-      if(name === "" || name == null){
-        alert("Name is required");
-        return false;
-      }
-  
-      if(email === "" || email == null){
-        alert("Email is required");
-        return false;
-      }
-  
-      if(message === "" || message == null){
-        alert("Message is required");
-        return false;
-      }
-      alert(name + "," + " we have received your message. Thank you for reaching out to us.")
-      return true;
-    }
-  
+
+  $(".Hover7").hover(()=> {
+      $('.Hover7').css('opacity', '1' );
+
+  }, () =>{
+
+      $('.Hover7').css('opacity', '0');
+
+  });
+ 
+
+  // submit function
+
+  $('#submit').click(()=>{
+
+  var nameValue = $('#name').val();
+  var emailValue = $('#email').val();
+  var textValue = $('#textarea').val();
+
+      if( nameValue == '' || emailValue == '' || textValue == ''){
+      alert('Please enter name, email or a short message');
+  } else {
+      alert('Congratulations, we have received your details');
+  }
+  });
+
+});
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status

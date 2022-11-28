@@ -4,12 +4,9 @@ html {
 
 #home{
 
-  background-image: url("C:\Users\jmwasi\Delani Studio WK3\back\h_img.jpg");
-
+  background-image: url("back/h_img.jpg");
   background-repeat: no-repeat;
-
   background-size: cover;
-
   background-position: center;
   font-family: 'Gabriela', serif;
 
@@ -17,7 +14,7 @@ html {
 
 #services{
 
-  background-image: url("C:\Users\jmwasi\Delani Studio WK3\back\s_image.jpg");
+  background-image: url("back/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,7 +23,7 @@ html {
 
 #contact-us{
 
-  background-image: url("C:\Users\jmwasi\Delani Studio WK3\back\c_image.jpg");
+  background-image: url("back/c_image.jpg");
 
   background-repeat: no-repeat;
 
